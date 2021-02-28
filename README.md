@@ -2,6 +2,790 @@
 
 
 
+### 接口 Rater
+
+* ```text
+  public interface Rater
+  ```
+* * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    | 限定符和类型 | 方法和说明 |
+    | `void` | [`addRating`](Rater.html#addRating-java.lang.String-double-)`(java.lang.String item, double rating)`  |
+    | `java.lang.String` | [`getID`](Rater.html#getID--)`()`  |
+    | `java.util.ArrayList<java.lang.String>` | [`getItemsRated`](Rater.html#getItemsRated--)`()`  |
+    | `double` | [`getRating`](Rater.html#getRating-java.lang.String-)`(java.lang.String item)`  |
+    | `boolean` | [`hasRating`](Rater.html#hasRating-java.lang.String-)`(java.lang.String item)`  |
+    | `int` | [`numRatings`](Rater.html#numRatings--)`()`  |
+* * **方法详细资料**
+    * **addRating**
+
+      ```text
+      void addRating(java.lang.String item,
+                     double rating)
+      ```
+
+    * **getID\[Show source in BlueJ\]**
+
+      ```text
+      java.lang.String getID()
+      ```
+
+    * **getItemsRated\[Show source in BlueJ\]**
+
+      ```text
+      java.util.ArrayList<java.lang.String> getItemsRated()
+      ```
+
+    * **getRating**
+
+      ```text
+      double getRating(java.lang.String item)
+      ```
+
+    * **hasRating**
+
+      ```text
+      boolean hasRating(java.lang.String item)
+      ```
+
+    * **numRatings\[Show source in BlueJ\]**
+
+      ```text
+      int numRatings()
+      ```
+
+
+
+### 
+
+### 类 Rating
+
+* java.lang.Object
+* * Rating
+* 所有已实现的接口:java.lang.Comparable&lt;[Rating](Rating.html)&gt;
+
+  ```text
+  public class Rating
+  extends java.lang.Object
+  implements java.lang.Comparable<Rating>
+  ```
+
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`Rating`](Rating.html#Rating-java.lang.String-double-)`(java.lang.String anItem, double aValue)`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    |  |  |
+    |  |  |
+    | 限定符和类型 | 方法和说明 |
+    | `int` | [`compareTo`](Rating.html#compareTo-Rating-)`(`[`Rating`](Rating.html) `other)`  |
+    | `java.lang.String` | [`getItem`](Rating.html#getItem--)`()`  |
+    | `double` | [`getValue`](Rating.html#getValue--)`()`  |
+    | `java.lang.String` | [`toString`](Rating.html#toString--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+* * **构造器详细资料**
+    * **Rating**
+
+      ```text
+      public Rating(java.lang.String anItem,
+                    double aValue)
+      ```
+  * **方法详细资料**
+    * **compareTo\[Show source in BlueJ\]**
+
+      ```text
+      public int compareTo(Rating other)
+      ```
+
+      指定者:`compareTo` 在接口中 `java.lang.Comparable<`[`Rating`](Rating.html)`>`
+
+    * **getItem\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getItem()
+      ```
+
+    * **getValue\[Show source in BlueJ\]**
+
+      ```text
+      public double getValue()
+      ```
+
+    * **toString\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String toString()
+      ```
+
+      覆盖:`toString` 在类中 `java.lang.Object`
+
+### 类 PlainRater
+
+* java.lang.Object
+* * PlainRater
+* 所有已实现的接口:Rater
+
+  ```text
+  public class PlainRater
+  extends java.lang.Object
+  implements Rater
+  ```
+
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`PlainRater`](PlainRater.html#PlainRater-java.lang.String-)`(java.lang.String id)`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    | 限定符和类型 | 方法和说明 |
+    | `void` | [`addRating`](PlainRater.html#addRating-java.lang.String-double-)`(java.lang.String item, double rating)`  |
+    | `java.lang.String` | [`getID`](PlainRater.html#getID--)`()`  |
+    | `java.util.ArrayList<java.lang.String>` | [`getItemsRated`](PlainRater.html#getItemsRated--)`()`  |
+    | `double` | [`getRating`](PlainRater.html#getRating-java.lang.String-)`(java.lang.String item)`  |
+    | `boolean` | [`hasRating`](PlainRater.html#hasRating-java.lang.String-)`(java.lang.String item)`  |
+    | `int` | [`numRatings`](PlainRater.html#numRatings--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **PlainRater**
+
+      ```text
+      public PlainRater(java.lang.String id)
+      ```
+  * **方法详细资料**
+    * **addRating**
+
+      ```text
+      public void addRating(java.lang.String item,
+                            double rating)
+      ```
+
+      指定者:`addRating` 在接口中 `Rater`
+
+    * **getID\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getID()
+      ```
+
+      指定者:`getID` 在接口中 `Rater`
+
+    * **getItemsRated\[Show source in BlueJ\]**
+
+      ```text
+      public java.util.ArrayList<java.lang.String> getItemsRated()
+      ```
+
+      指定者:`getItemsRated` 在接口中 `Rater`
+
+    * **getRating**
+
+      ```text
+      public double getRating(java.lang.String item)
+      ```
+
+      指定者:`getRating` 在接口中 `Rater`
+
+    * **hasRating**
+
+      ```text
+      public boolean hasRating(java.lang.String item)
+      ```
+
+      指定者:`hasRating` 在接口中 `Rater`
+
+    * **numRatings\[Show source in BlueJ\]**
+
+      ```text
+      public int numRatings()
+      ```
+
+      指定者:`numRatings` 在接口中 `Rater`
+
+
+
+### 类 EfficientRater
+
+* java.lang.Object
+* * EfficientRater
+* 所有已实现的接口:Rater
+
+  ```text
+  public class EfficientRater
+  extends java.lang.Object
+  implements Rater
+  ```
+
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`EfficientRater`](EfficientRater.html#EfficientRater-java.lang.String-)`(java.lang.String id)`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    |  |  |
+    |  |  |
+    | 限定符和类型 | 方法和说明 |
+    | `void` | [`addRating`](EfficientRater.html#addRating-java.lang.String-double-)`(java.lang.String item, double rating)`  |
+    | `java.lang.String` | [`getID`](EfficientRater.html#getID--)`()`  |
+    | `java.util.ArrayList<java.lang.String>` | [`getItemsRated`](EfficientRater.html#getItemsRated--)`()`  |
+    | `double` | [`getRating`](EfficientRater.html#getRating-java.lang.String-)`(java.lang.String item)`  |
+    | `boolean` | [`hasRating`](EfficientRater.html#hasRating-java.lang.String-)`(java.lang.String item)`  |
+    | `int` | [`numRatings`](EfficientRater.html#numRatings--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **EfficientRater**
+
+      ```text
+      public EfficientRater(java.lang.String id)
+      ```
+  * **方法详细资料**
+    * **addRating**
+
+      ```text
+      public void addRating(java.lang.String item,
+                            double rating)
+      ```
+
+      指定者:`addRating` 在接口中 `Rater`
+
+    * **getID\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getID()
+      ```
+
+      指定者:`getID` 在接口中 `Rater`
+
+    * **getItemsRated\[Show source in BlueJ\]**
+
+      ```text
+      public java.util.ArrayList<java.lang.String> getItemsRated()
+      ```
+
+      指定者:`getItemsRated` 在接口中 `Rater`
+
+    * **getRating**
+
+      ```text
+      public double getRating(java.lang.String item)
+      ```
+
+      指定者:`getRating` 在接口中 `Rater`
+
+    * **hasRating**
+
+      ```text
+      public boolean hasRating(java.lang.String item)
+      ```
+
+      指定者:`hasRating` 在接口中 `Rater`
+
+    * **numRatings\[Show source in BlueJ\]**
+
+      ```text
+      public int numRatings()
+      ```
+
+      指定者:`numRatings` 在接口中 `Rater`
+
+
+
+### 类 FirstRatings
+
+* java.lang.Object
+* * FirstRatings
+* ```text
+  public class FirstRatings
+  extends java.lang.Object
+  ```
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`FirstRatings`](FirstRatings.html#FirstRatings--)`()`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    | 限定符和类型 | 方法和说明 |
+    | `java.util.ArrayList<Movie>` | [`loadMovies`](FirstRatings.html#loadMovies-java.lang.String-)`(java.lang.String filename)`  |
+    | `java.util.ArrayList<Rater>` | [`loadRaters`](FirstRatings.html#loadRaters-java.lang.String-)`(java.lang.String filename)`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **FirstRatings\[Show source in BlueJ\]**
+
+      ```text
+      public FirstRatings()
+      ```
+  * **方法详细资料**
+    * **loadMovies**
+
+      ```text
+      public java.util.ArrayList<Movie> loadMovies(java.lang.String filename)
+      ```
+
+    * **loadRaters**
+
+      ```text
+      public java.util.ArrayList<Rater> loadRaters(java.lang.String filename)
+      ```
+
+
+
+### 
+
+### 类 Movie
+
+* java.lang.Object
+* * Movie
+* ```text
+  public class Movie
+  extends java.lang.Object
+  ```
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`Movie`](Movie.html#Movie-java.lang.String-java.lang.String-java.lang.String-java.lang.String-)`(java.lang.String anID, java.lang.String aTitle, java.lang.String aYear, java.lang.String theGenres)`  |
+    | [`Movie`](Movie.html#Movie-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.lang.String-int-)`(java.lang.String anID, java.lang.String aTitle, java.lang.String aYear, java.lang.String theGenres, java.lang.String aDirector, java.lang.String aCountry, java.lang.String aPoster, int theMinutes)`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    |  |  |
+    |  |  |
+    | 限定符和类型 | 方法和说明 |
+    | `java.lang.String` | [`getCountry`](Movie.html#getCountry--)`()`  |
+    | `java.lang.String` | [`getDirector`](Movie.html#getDirector--)`()`  |
+    | `java.lang.String` | [`getGenres`](Movie.html#getGenres--)`()`  |
+    | `java.lang.String` | [`getID`](Movie.html#getID--)`()`  |
+    | `int` | [`getMinutes`](Movie.html#getMinutes--)`()`  |
+    | `java.lang.String` | [`getPoster`](Movie.html#getPoster--)`()`  |
+    | `java.lang.String` | [`getTitle`](Movie.html#getTitle--)`()`  |
+    | `int` | [`getYear`](Movie.html#getYear--)`()`  |
+    | `java.lang.String` | [`toString`](Movie.html#toString--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+* * **构造器详细资料**
+    * **Movie**
+
+      ```text
+      public Movie(java.lang.String anID,
+                   java.lang.String aTitle,
+                   java.lang.String aYear,
+                   java.lang.String theGenres)
+      ```
+
+    * **Movie**
+
+      ```text
+      public Movie(java.lang.String anID,
+                   java.lang.String aTitle,
+                   java.lang.String aYear,
+                   java.lang.String theGenres,
+                   java.lang.String aDirector,
+                   java.lang.String aCountry,
+                   java.lang.String aPoster,
+                   int theMinutes)
+      ```
+  * **方法详细资料**
+    * **getCountry\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getCountry()
+      ```
+
+    * **getDirector\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getDirector()
+      ```
+
+    * **getGenres\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getGenres()
+      ```
+
+    * **getID\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getID()
+      ```
+
+    * **getMinutes\[Show source in BlueJ\]**
+
+      ```text
+      public int getMinutes()
+      ```
+
+    * **getPoster\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getPoster()
+      ```
+
+    * **getTitle\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String getTitle()
+      ```
+
+    * **getYear\[Show source in BlueJ\]**
+
+      ```text
+      public int getYear()
+      ```
+
+    * **toString\[Show source in BlueJ\]**
+
+      ```text
+      public java.lang.String toString()
+      ```
+
+      覆盖:`toString` 在类中 `java.lang.Object`
+
+### 类 MovieDatabase
+
+* java.lang.Object
+* * MovieDatabase
+* ```text
+  public class MovieDatabase
+  extends java.lang.Object
+  ```
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`MovieDatabase`](MovieDatabase.html#MovieDatabase--)`()`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    | 限定符和类型 | 方法和说明 |
+    | `static boolean` | [`containsID`](MovieDatabase.html#containsID-java.lang.String-)`(java.lang.String id)`  |
+    | `static java.util.ArrayList<java.lang.String>` | [`filterBy`](MovieDatabase.html#filterBy-Filter-)`(Filter f)`  |
+    | `static java.lang.String` | [`getCountry`](MovieDatabase.html#getCountry-java.lang.String-)`(java.lang.String id)`  |
+    | `static java.lang.String` | [`getDirector`](MovieDatabase.html#getDirector-java.lang.String-)`(java.lang.String id)`  |
+    | `static java.lang.String` | [`getGenres`](MovieDatabase.html#getGenres-java.lang.String-)`(java.lang.String id)`  |
+    | `static int` | [`getMinutes`](MovieDatabase.html#getMinutes-java.lang.String-)`(java.lang.String id)`  |
+    | `static Movie` | [`getMovie`](MovieDatabase.html#getMovie-java.lang.String-)`(java.lang.String id)`  |
+    | `static java.lang.String` | [`getPoster`](MovieDatabase.html#getPoster-java.lang.String-)`(java.lang.String id)`  |
+    | `static java.lang.String` | [`getTitle`](MovieDatabase.html#getTitle-java.lang.String-)`(java.lang.String id)`  |
+    | `static int` | [`getYear`](MovieDatabase.html#getYear-java.lang.String-)`(java.lang.String id)`  |
+    | `static void` | [`initialize`](MovieDatabase.html#initialize-java.lang.String-)`(java.lang.String moviefile)`  |
+    | `static int` | [`size`](MovieDatabase.html#size--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **MovieDatabase\[Show source in BlueJ\]**
+
+      ```text
+      public MovieDatabase()
+      ```
+  * **方法详细资料**
+    * **containsID**
+
+      ```text
+      public static boolean containsID(java.lang.String id)
+      ```
+
+    * **filterBy\[Show source in BlueJ\]**
+
+      ```text
+      public static java.util.ArrayList<java.lang.String> filterBy(Filter f)
+      ```
+
+    * **getCountry**
+
+      ```text
+      public static java.lang.String getCountry(java.lang.String id)
+      ```
+
+    * **getDirector**
+
+      ```text
+      public static java.lang.String getDirector(java.lang.String id)
+      ```
+
+    * **getGenres**
+
+      ```text
+      public static java.lang.String getGenres(java.lang.String id)
+      ```
+
+    * **getMinutes**
+
+      ```text
+      public static int getMinutes(java.lang.String id)
+      ```
+
+    * **getMovie**
+
+      ```text
+      public static Movie getMovie(java.lang.String id)
+      ```
+
+    * **getPoster**
+
+      ```text
+      public static java.lang.String getPoster(java.lang.String id)
+      ```
+
+    * **getTitle**
+
+      ```text
+      public static java.lang.String getTitle(java.lang.String id)
+      ```
+
+    * **getYear**
+
+      ```text
+      public static int getYear(java.lang.String id)
+      ```
+
+    * **initialize**
+
+      ```text
+      public static void initialize(java.lang.String moviefile)
+      ```
+
+    * **size\[Show source in BlueJ\]**
+
+      ```text
+      public static int size()
+      ```
+
+
+
+### 类 SecondRatings
+
+* java.lang.Object
+* * SecondRatings
+* ```text
+  public class SecondRatings
+  extends java.lang.Object
+  ```
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`SecondRatings`](SecondRatings.html#SecondRatings--)`()`  |
+    | [`SecondRatings`](SecondRatings.html#SecondRatings-java.lang.String-java.lang.String-)`(java.lang.String moviefile, java.lang.String ratingsfile)`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    | 限定符和类型 | 方法和说明 |
+    | `java.util.ArrayList<Rating>` | [`getAverageRatings`](SecondRatings.html#getAverageRatings-int-)`(int minimalRaters)`  |
+    | `java.lang.String` | [`getID`](SecondRatings.html#getID-java.lang.String-)`(java.lang.String title)`  |
+    | `int` | [`getMovieSize`](SecondRatings.html#getMovieSize--)`()`  |
+    | `int` | [`getRaterSize`](SecondRatings.html#getRaterSize--)`()`  |
+    | `java.lang.String` | [`getTitle`](SecondRatings.html#getTitle-java.lang.String-)`(java.lang.String id)`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **SecondRatings\[Show source in BlueJ\]**
+
+      ```text
+      public SecondRatings()
+      ```
+
+    * **SecondRatings**
+
+      ```text
+      public SecondRatings(java.lang.String moviefile,
+                           java.lang.String ratingsfile)
+      ```
+  * **方法详细资料**
+    * **getAverageRatings\[Show source in BlueJ\]**
+
+      ```text
+      public java.util.ArrayList<Rating> getAverageRatings(int minimalRaters)
+      ```
+
+    * **getID**
+
+      ```text
+      public java.lang.String getID(java.lang.String title)
+      ```
+
+    * **getMovieSize\[Show source in BlueJ\]**
+
+      ```text
+      public int getMovieSize()
+      ```
+
+    * **getRaterSize\[Show source in BlueJ\]**
+
+      ```text
+      public int getRaterSize()
+      ```
+
+    * **getTitle**
+
+      ```text
+      public java.lang.String getTitle(java.lang.String id)
+      ```
+
+
+
+### 类 ThirdRatings
+
+* java.lang.Object
+* * ThirdRatings
+* ```text
+  public class ThirdRatings
+  extends java.lang.Object
+  ```
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`ThirdRatings`](ThirdRatings.html#ThirdRatings--)`()`  |
+    | [`ThirdRatings`](ThirdRatings.html#ThirdRatings-java.lang.String-)`(java.lang.String ratingsfile)`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    | 限定符和类型 | 方法和说明 |
+    | `java.util.ArrayList<Rating>` | [`getAverageRatings`](ThirdRatings.html#getAverageRatings-int-)`(int minimalRaters)`  |
+    | `java.util.ArrayList<Rating>` | [`getAverageRatingsByFilter`](ThirdRatings.html#getAverageRatingsByFilter-int-Filter-)`(int minimalRaters, Filter filterCriteria)`  |
+    | `int` | [`getRaterSize`](ThirdRatings.html#getRaterSize--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **ThirdRatings\[Show source in BlueJ\]**
+
+      ```text
+      public ThirdRatings()
+      ```
+
+    * **ThirdRatings**
+
+      ```text
+      public ThirdRatings(java.lang.String ratingsfile)
+      ```
+  * **方法详细资料**
+    * **getAverageRatings\[Show source in BlueJ\]**
+
+      ```text
+      public java.util.ArrayList<Rating> getAverageRatings(int minimalRaters)
+      ```
+
+    * **getAverageRatingsByFilter\[Show source in BlueJ\]**
+
+      ```text
+      public java.util.ArrayList<Rating> getAverageRatingsByFilter(int minimalRaters,
+                                                                   Filter filterCriteria)
+      ```
+
+    * **getRaterSize\[Show source in BlueJ\]**
+
+      ```text
+      public int getRaterSize()
+      ```
+
+
+
+### 类 MovieRunnerAverage
+
+* java.lang.Object
+* * MovieRunnerAverage
+* ```text
+  public class MovieRunnerAverage
+  extends java.lang.Object
+  ```
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`MovieRunnerAverage`](MovieRunnerAverage.html#MovieRunnerAverage--)`()`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    |  |  |
+    |  |  |
+    | 限定符和类型 | 方法和说明 |
+    | `void` | [`getAverageRatingOneMovie`](MovieRunnerAverage.html#getAverageRatingOneMovie--)`()`  |
+    | `void` | [`printAverageRatings`](MovieRunnerAverage.html#printAverageRatings--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **MovieRunnerAverage\[Show source in BlueJ\]**
+
+      ```text
+      public MovieRunnerAverage()
+      ```
+  * **方法详细资料**
+    * **getAverageRatingOneMovie\[Show source in BlueJ\]**
+
+      ```text
+      public void getAverageRatingOneMovie()
+      ```
+
+    * **printAverageRatings\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatings()
+      ```
+
+
+
+
+
 ### 接口 Filter
 
 * ```text
@@ -349,4 +1133,86 @@
       指定者:`satisfies` 在接口中 `Filter`
 
 \`\`
+
+### 类 MovieRunnerWithFilters
+
+* java.lang.Object
+* * MovieRunnerWithFilters
+* ```text
+  public class MovieRunnerWithFilters
+  extends java.lang.Object
+  ```
+* * **构造器概要**
+
+    | 构造器 |
+    | :--- |
+    | 构造器和说明 |
+    | [`MovieRunnerWithFilters`](MovieRunnerWithFilters.html#MovieRunnerWithFilters--)`()`  |
+
+  * **方法概要**
+
+    | 所有方法 |  |
+    | :--- | :--- |
+    |  |  |
+    |  |  |
+    | 限定符和类型 | 方法和说明 |
+    | `void` | [`printAverageRatings`](MovieRunnerWithFilters.html#printAverageRatings--)`()`  |
+    | `void` | [`printAverageRatingsByDirectors`](MovieRunnerWithFilters.html#printAverageRatingsByDirectors--)`()`  |
+    | `void` | [`printAverageRatingsByDirectorsAndMinutes`](MovieRunnerWithFilters.html#printAverageRatingsByDirectorsAndMinutes--)`()`  |
+    | `void` | [`printAverageRatingsByGenre`](MovieRunnerWithFilters.html#printAverageRatingsByGenre--)`()`  |
+    | `void` | [`printAverageRatingsByMinutes`](MovieRunnerWithFilters.html#printAverageRatingsByMinutes--)`()`  |
+    | `void` | [`printAverageRatingsByYearAfter`](MovieRunnerWithFilters.html#printAverageRatingsByYearAfter--)`()`  |
+    | `void` | [`printAverageRatingsByYearAfterAndGenre`](MovieRunnerWithFilters.html#printAverageRatingsByYearAfterAndGenre--)`()`  |
+
+    * **从类继承的方法 java.lang.Object**
+
+      `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+* * **构造器详细资料**
+    * **MovieRunnerWithFilters\[Show source in BlueJ\]**
+
+      ```text
+      public MovieRunnerWithFilters()
+      ```
+  * **方法详细资料**
+    * **printAverageRatings\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatings()
+      ```
+
+    * **printAverageRatingsByDirectors\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatingsByDirectors()
+      ```
+
+    * **printAverageRatingsByDirectorsAndMinutes\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatingsByDirectorsAndMinutes()
+      ```
+
+    * **printAverageRatingsByGenre\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatingsByGenre()
+      ```
+
+    * **printAverageRatingsByMinutes\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatingsByMinutes()
+      ```
+
+    * **printAverageRatingsByYearAfter\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatingsByYearAfter()
+      ```
+
+    * **printAverageRatingsByYearAfterAndGenre\[Show source in BlueJ\]**
+
+      ```text
+      public void printAverageRatingsByYearAfterAndGenre()
+      ```
 
