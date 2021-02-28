@@ -26,13 +26,13 @@
                      double rating)
       ```
 
-    * **getID\[Show source in BlueJ\]**
+    * **getID**
 
       ```text
       java.lang.String getID()
       ```
 
-    * **getItemsRated\[Show source in BlueJ\]**
+    * **getItemsRated**
 
       ```text
       java.util.ArrayList<java.lang.String> getItemsRated()
@@ -50,7 +50,7 @@
       boolean hasRating(java.lang.String item)
       ```
 
-    * **numRatings\[Show source in BlueJ\]**
+    * **numRatings**
 
       ```text
       int numRatings()
@@ -102,7 +102,7 @@
                     double aValue)
       ```
   * **方法详细资料**
-    * **compareTo\[Show source in BlueJ\]**
+    * **compareTo**
 
       ```text
       public int compareTo(Rating other)
@@ -110,19 +110,19 @@
 
       指定者:`compareTo` 在接口中 `java.lang.Comparable<`[`Rating`](Rating.html)`>`
 
-    * **getItem\[Show source in BlueJ\]**
+    * **getItem**
 
       ```text
       public java.lang.String getItem()
       ```
 
-    * **getValue\[Show source in BlueJ\]**
+    * **getValue**
 
       ```text
       public double getValue()
       ```
 
-    * **toString\[Show source in BlueJ\]**
+    * **toString**
 
       ```text
       public java.lang.String toString()
@@ -180,7 +180,7 @@
 
       指定者:`addRating` 在接口中 `Rater`
 
-    * **getID\[Show source in BlueJ\]**
+    * **getID**
 
       ```text
       public java.lang.String getID()
@@ -188,7 +188,7 @@
 
       指定者:`getID` 在接口中 `Rater`
 
-    * **getItemsRated\[Show source in BlueJ\]**
+    * **getItemsRated**
 
       ```text
       public java.util.ArrayList<java.lang.String> getItemsRated()
@@ -212,7 +212,7 @@
 
       指定者:`hasRating` 在接口中 `Rater`
 
-    * **numRatings\[Show source in BlueJ\]**
+    * **numRatings**
 
       ```text
       public int numRatings()
@@ -274,7 +274,7 @@
 
       指定者:`addRating` 在接口中 `Rater`
 
-    * **getID\[Show source in BlueJ\]**
+    * **getID**
 
       ```text
       public java.lang.String getID()
@@ -282,7 +282,7 @@
 
       指定者:`getID` 在接口中 `Rater`
 
-    * **getItemsRated\[Show source in BlueJ\]**
+    * **getItemsRated**
 
       ```text
       public java.util.ArrayList<java.lang.String> getItemsRated()
@@ -306,7 +306,7 @@
 
       指定者:`hasRating` 在接口中 `Rater`
 
-    * **numRatings\[Show source in BlueJ\]**
+    * **numRatings**
 
       ```text
       public int numRatings()
@@ -343,7 +343,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **FirstRatings\[Show source in BlueJ\]**
+    * **FirstRatings**
 
       ```text
       public FirstRatings()
@@ -385,8 +385,6 @@
 
     | 所有方法 |  |
     | :--- | :--- |
-    |  |  |
-    |  |  |
     | 限定符和类型 | 方法和说明 |
     | `java.lang.String` | [`getCountry`](Movie.html#getCountry--)`()`  |
     | `java.lang.String` | [`getDirector`](Movie.html#getDirector--)`()`  |
@@ -424,55 +422,55 @@
                    int theMinutes)
       ```
   * **方法详细资料**
-    * **getCountry\[Show source in BlueJ\]**
+    * **getCountry**
 
       ```text
       public java.lang.String getCountry()
       ```
 
-    * **getDirector\[Show source in BlueJ\]**
+    * **getDirector**
 
       ```text
       public java.lang.String getDirector()
       ```
 
-    * **getGenres\[Show source in BlueJ\]**
+    * **getGenres**
 
       ```text
       public java.lang.String getGenres()
       ```
 
-    * **getID\[Show source in BlueJ\]**
+    * **getID**
 
       ```text
       public java.lang.String getID()
       ```
 
-    * **getMinutes\[Show source in BlueJ\]**
+    * **getMinutes**
 
       ```text
       public int getMinutes()
       ```
 
-    * **getPoster\[Show source in BlueJ\]**
+    * **getPoster**
 
       ```text
       public java.lang.String getPoster()
       ```
 
-    * **getTitle\[Show source in BlueJ\]**
+    * **getTitle**
 
       ```text
       public java.lang.String getTitle()
       ```
 
-    * **getYear\[Show source in BlueJ\]**
+    * **getYear**
 
       ```text
       public int getYear()
       ```
 
-    * **toString\[Show source in BlueJ\]**
+    * **toString**
 
       ```text
       public java.lang.String toString()
@@ -517,7 +515,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **MovieDatabase\[Show source in BlueJ\]**
+    * **MovieDatabase**
 
       ```text
       public MovieDatabase()
@@ -529,7 +527,7 @@
       public static boolean containsID(java.lang.String id)
       ```
 
-    * **filterBy\[Show source in BlueJ\]**
+    * **filterBy**
 
       ```text
       public static java.util.ArrayList<java.lang.String> filterBy(Filter f)
@@ -628,7 +626,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **SecondRatings\[Show source in BlueJ\]**
+    * **SecondRatings**
 
       ```text
       public SecondRatings()
@@ -641,7 +639,7 @@
                            java.lang.String ratingsfile)
       ```
   * **方法详细资料**
-    * **getAverageRatings\[Show source in BlueJ\]**
+    * **getAverageRatings**
 
       ```text
       public java.util.ArrayList<Rating> getAverageRatings(int minimalRaters)
@@ -653,13 +651,13 @@
       public java.lang.String getID(java.lang.String title)
       ```
 
-    * **getMovieSize\[Show source in BlueJ\]**
+    * **getMovieSize**
 
       ```text
       public int getMovieSize()
       ```
 
-    * **getRaterSize\[Show source in BlueJ\]**
+    * **getRaterSize**
 
       ```text
       public int getRaterSize()
@@ -702,7 +700,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **ThirdRatings\[Show source in BlueJ\]**
+    * **ThirdRatings**
 
       ```text
       public ThirdRatings()
@@ -714,20 +712,20 @@
       public ThirdRatings(java.lang.String ratingsfile)
       ```
   * **方法详细资料**
-    * **getAverageRatings\[Show source in BlueJ\]**
+    * **getAverageRatings**
 
       ```text
       public java.util.ArrayList<Rating> getAverageRatings(int minimalRaters)
       ```
 
-    * **getAverageRatingsByFilter\[Show source in BlueJ\]**
+    * **getAverageRatingsByFilter**
 
       ```text
       public java.util.ArrayList<Rating> getAverageRatingsByFilter(int minimalRaters,
                                                                    Filter filterCriteria)
       ```
 
-    * **getRaterSize\[Show source in BlueJ\]**
+    * **getRaterSize**
 
       ```text
       public int getRaterSize()
@@ -764,19 +762,19 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **MovieRunnerAverage\[Show source in BlueJ\]**
+    * **MovieRunnerAverage**
 
       ```text
       public MovieRunnerAverage()
       ```
   * **方法详细资料**
-    * **getAverageRatingOneMovie\[Show source in BlueJ\]**
+    * **getAverageRatingOneMovie**
 
       ```text
       public void getAverageRatingOneMovie()
       ```
 
-    * **printAverageRatings\[Show source in BlueJ\]**
+    * **printAverageRatings**
 
       ```text
       public void printAverageRatings()
@@ -840,7 +838,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **MinutesFilter\[Show source in BlueJ\]**
+    * **MinutesFilter**
 
       ```text
       public MinutesFilter(int min,
@@ -891,7 +889,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **TrueFilter\[Show source in BlueJ\]**
+    * **TrueFilter**
 
       ```text
       public TrueFilter()
@@ -980,8 +978,6 @@
 
     | 所有方法 |  |
     | :--- | :--- |
-    |  |  |
-    |  |  |
     | 限定符和类型 | 方法和说明 |
     | `boolean` | [`satisfies`](YearAfterFilter.html#satisfies-java.lang.String-)`(java.lang.String id)`  |
 
@@ -989,7 +985,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **YearAfterFilter\[Show source in BlueJ\]**
+    * **YearAfterFilter**
 
       ```text
       public YearAfterFilter(int year)
@@ -1045,19 +1041,19 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **字段详细资料**
-    * **filters\[Show source in BlueJ\]**
+    * **filters**
 
       ```text
       java.util.ArrayList<Filter> filters
       ```
   * **构造器详细资料**
-    * **AllFilters\[Show source in BlueJ\]**
+    * **AllFilters**
 
       ```text
       public AllFilters()
       ```
   * **方法详细资料**//判断该movive的id是否符合条件
-    * **addFilter\[Show source in BlueJ\]**
+    * **addFilter**
 
       ```text
       public void addFilter(Filter f)
@@ -1112,7 +1108,7 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **字段详细资料**
-    * **directorsList\[Show source in BlueJ\]**
+    * **directorsList**
 
       ```text
       java.lang.String directorsList
@@ -1153,8 +1149,6 @@
 
     | 所有方法 |  |
     | :--- | :--- |
-    |  |  |
-    |  |  |
     | 限定符和类型 | 方法和说明 |
     | `void` | [`printAverageRatings`](MovieRunnerWithFilters.html#printAverageRatings--)`()`  |
     | `void` | [`printAverageRatingsByDirectors`](MovieRunnerWithFilters.html#printAverageRatingsByDirectors--)`()`  |
@@ -1168,49 +1162,49 @@
 
       `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 * * **构造器详细资料**
-    * **MovieRunnerWithFilters\[Show source in BlueJ\]**
+    * **MovieRunnerWithFilters**
 
       ```text
       public MovieRunnerWithFilters()
       ```
   * **方法详细资料**
-    * **printAverageRatings\[Show source in BlueJ\]**
+    * **printAverageRatings**
 
       ```text
       public void printAverageRatings()
       ```
 
-    * **printAverageRatingsByDirectors\[Show source in BlueJ\]**
+    * **printAverageRatingsByDirectors**
 
       ```text
       public void printAverageRatingsByDirectors()
       ```
 
-    * **printAverageRatingsByDirectorsAndMinutes\[Show source in BlueJ\]**
+    * **printAverageRatingsByDirectorsAndMinutes**
 
       ```text
       public void printAverageRatingsByDirectorsAndMinutes()
       ```
 
-    * **printAverageRatingsByGenre\[Show source in BlueJ\]**
+    * **printAverageRatingsByGenre**
 
       ```text
       public void printAverageRatingsByGenre()
       ```
 
-    * **printAverageRatingsByMinutes\[Show source in BlueJ\]**
+    * **printAverageRatingsByMinutes**
 
       ```text
       public void printAverageRatingsByMinutes()
       ```
 
-    * **printAverageRatingsByYearAfter\[Show source in BlueJ\]**
+    * **printAverageRatingsByYearAfter**
 
       ```text
       public void printAverageRatingsByYearAfter()
       ```
 
-    * **printAverageRatingsByYearAfterAndGenre\[Show source in BlueJ\]**
+    * **printAverageRatingsByYearAfterAndGenre**
 
       ```text
       public void printAverageRatingsByYearAfterAndGenre()
