@@ -243,8 +243,6 @@
 
     | 所有方法 |  |
     | :--- | :--- |
-    |  |  |
-    |  |  |
     | 限定符和类型 | 方法和说明 |
     | `void` | [`addRating`](EfficientRater.html#addRating-java.lang.String-double-)`(java.lang.String item, double rating)`  |
     | `java.lang.String` | [`getID`](EfficientRater.html#getID--)`()`  |
