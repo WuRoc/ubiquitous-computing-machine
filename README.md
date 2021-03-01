@@ -1095,8 +1095,6 @@
 
     | 所有方法 |  |
     | :--- | :--- |
-    |  |  |
-    |  |  |
     | 限定符和类型 | 方法和说明 |
     | `boolean` | [`satisfies`](DirectorsFilter.html#satisfies-java.lang.String-)`(java.lang.String id)`  |
 
