@@ -83,8 +83,6 @@
 
     | 所有方法 |  |
     | :--- | :--- |
-    |  |  |
-    |  |  |
     | 限定符和类型 | 方法和说明 |
     | `int` | [`compareTo`](Rating.html#compareTo-Rating-)`(`[`Rating`](Rating.html) `other)`  |
     | `java.lang.String` | [`getItem`](Rating.html#getItem--)`()`  |
