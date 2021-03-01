@@ -2,7 +2,7 @@
 /**
  * MovieRunnerSimilarRatings class contains various tests for the methods from FourthRatings.
  * 
- * @ Konstantin Krumin
+ * @ Wuhepeng
  * @ Version: 1.0 (February 20, 2020)
  */
 
